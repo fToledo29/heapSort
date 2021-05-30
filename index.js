@@ -1,3 +1,9 @@
+/**
+ * HeapSort Time complexity:
+ * Worst: O(n log n)
+ * Average: O(n log n)
+ */
+
 function swap(i, f, arr = []) {
 	const temp = arr[i];
 	arr[i] = arr[f];
